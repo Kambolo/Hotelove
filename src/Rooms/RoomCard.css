@@ -1,0 +1,12 @@
+img {
+  height: 400px;
+  width: 300px;
+}
+
+.desc{
+  word-wrap: break-word;
+}
+
+.card {
+  width: 1000px;
+}
