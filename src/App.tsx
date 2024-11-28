@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import Header from './common/Header';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import { SearchBar } from './common/SearchBar';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import RoomList from './Rooms/RoomList';
 import { RoomsPage } from './Rooms/RoomsPage';
 
