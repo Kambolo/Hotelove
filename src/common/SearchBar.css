@@ -1,6 +1,12 @@
 .form-container {
+  position: relative;
   display: flex;
   justify-content: center;
+}
+
+.date {
+  position: absolute;
+  right: 405px;
 }
 
 .icons {
