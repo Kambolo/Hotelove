@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import './SearchBar.css'
 import DatePicker from './DatePicker';
+import { PeoplePicker } from './PeoplePicker';
 
 export const SearchBar = () => {
   const[isDatePickerVisible, setDatePickerVisibility] = useState(false);
@@ -47,6 +48,11 @@ export const SearchBar = () => {
           <DatePicker/>   
         </div>
         )}   
+        {isPeopleCountVisible &&(
+          <div className='people'>
+            <PeoplePicker/>
+          </div>
+        )}
       </form>
     </div>
   )
